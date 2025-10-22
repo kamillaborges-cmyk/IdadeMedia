@@ -1,0 +1,23 @@
+body{
+    color: rgb(67, 88, 134);
+    background: rgb(67, 88, 134);
+    margin: 0px;
+}
+
+header{
+    border-bottom: solid 2px rgb(158, 194, 235);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(158, 194, 235);
+}
+
+section{
+    background: rgb(158, 194, 235);
+    padding-bottom: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.chamda-texto{
+        margin-right: 5%;
+    }
