@@ -2,6 +2,7 @@ body {
     color: rgb(67, 88, 134);
     background: rgb(67, 88, 134);
     margin: 0px;
+    font-family: "Lobster Two", sans-serif;
 }
 
 header {
@@ -21,4 +22,12 @@ section {
 
 .chamda-texto {
     margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
