@@ -1,19 +1,19 @@
 body {
-    color: rgb(67, 88, 134);
-    background: rgb(67, 88, 134);
-    margin: 0px;
+    color: rgb(241, 232, 148);
+    background: rgb(241, 232, 148);
+    margin: 20px;
     font-family: "DM Serif Text", sans-serif;
 }
 
 header {
-    border-bottom: solid 2px rgb(158, 194, 235);
+    border-bottom: solid 2px rgb(122, 118, 76);
     padding: 20px;
     font-size: 32px;
-    color: rgb(108, 151, 199);
+    color: rgb(241, 232, 148);
 }
 
-section {
-    background: rgb(158, 194, 235);
+.chamada {
+    background: rgb(122, 118, 76);
     padding-bottom: 50px;
     padding-top: 20px;
     display: flex;
@@ -30,4 +30,17 @@ h1{
 
 p{
     font-size: 20px;
+}
+
+img{
+    height: 20px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
