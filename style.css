@@ -1,57 +1,60 @@
-body {
-    color: rgb(250, 245, 191);
-    background: rgb(173, 169, 122);
-    margin: 20px;
-    font-family: "DM Serif Text", sans-serif;
+body{
+    color: rgb(255, 246, 205);
+    background: rgb(143, 131, 106);
+    margin: 0px;
     margin-bottom: 100px;
 }
 
-header {
-    border-bottom: solid 2px rgb(250, 245, 191);
+header{
+    border-bottom: solid 2px rgb(248, 235, 178);
     padding: 20px;
     font-size: 32px;
-    color: rgb(250, 245, 191);
+    color: rgb(247, 225, 129);
 }
 
-.chamada {
-    background: rgb(126, 122, 76);
-    padding-bottom: 50px;
-    padding-top: 20px;
+.chamada{
+    background: rgb(247, 225, 129);
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
 }
-
-.chamda-texto {
+.chamada-texto{
     margin-right: 5%;
 }
 
 h1{
     font-size: 40px;
+
 }
 
 p{
     font-size: 20px;
+
 }
+
+
 .categoria-videos{
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
 .categoria{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 50px;
 }
 
 .categoria-videos img{
-    opacity: 0,5;
+    opacity: 0.5;
     height: 200px;
 }
 
 .categoria-videos img:hover{
-    opacity: 1,0;
-    border: 1px solid rgb(126, 122, 76);
+    opacity: 1.0;
+    border: 1px solid rgb(255, 255, 255);
 }
+
 .categoria h2{
- color:rgb(126, 122, 76)
+    color: rgb(247, 225, 129);
 }
